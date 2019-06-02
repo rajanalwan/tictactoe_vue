@@ -1,5 +1,14 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <div class="about">An unbeatable tic tac toe player built using Vue.</div>
 </template>
+<style lang="scss">
+.about {
+  text-align: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 32px;
+}
+</style>
+
